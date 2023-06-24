@@ -1,0 +1,161 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-toggle span {
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  
+    .menu-toggle {
+      display: flex;
+    }
+  
+    .content {
+      padding-top: 60px;
+    }
+  }
+  
+
+.product-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-details {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.review-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.rating {
+    color: #f2b600;
+    /* Set the color of the stars */
+}
+
+.star {
+    font-size: 20px;
+    /* Adjust the size of the stars */
+}
+
+
+.review {
+    margin-bottom: 10px;
+}
+
+.pricing-section {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.quantity {
+    margin-bottom: 10px;
+}
+
+.payment-options ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.discount-countdown {
+    margin-bottom: 10px;
+}
+
+.add-button button {
+    background-color: #e0be26;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buy-button button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-button button:hover {
+    background-color: #e0be26;
+}
+
+.buy-button button:hover {
+    background-color: #45a049;
+}
